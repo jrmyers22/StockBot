@@ -12,3 +12,6 @@ tickerData = yf.Ticker(tickerSymbol)
 #see your data
 for key in tickerData.info.keys():
 	print(key)
+# print(tickerData.info['priceHint'])
+# print(tickerData.info['priceToBook'])
+# print(tickerData.info['priceToSalesTrailing12Months'])
